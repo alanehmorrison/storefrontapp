@@ -130,7 +130,7 @@ nav#utilityMenu ul li.acctNav::before, nav#utilityMenu ul li input#search::befor
     box-shadow: 1px 1px 5px black;
 }
 #boomsday {
-    background: url("../StoreApp/fish/sea.jpg") center no-repeat;
+    background: url("fish/sea.jpg") center no-repeat;
     background-size: cover;
     height: 400px;
 }
