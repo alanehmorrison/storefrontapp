@@ -1,8 +1,8 @@
 body {
     font-size: 67.5%;
     font-family: Tahoma, Geneva, sans-serif;
-    background: white no-repeat fixed top center;
-    padding: 10em;
+    background: black no-repeat fixed top center;
+    padding: 2em;
     margin: 0;
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
@@ -20,12 +20,12 @@ body {
     padding: 1.7em 0.5em 2.0em 1.7em;
     border-right:black solid 5px;
 }
-nav{
-    color: #000;
-    font-size: 1.7em;
+ nav{
+    
+    font-size: 2em;
     letter-spacing: 0.04em;
-    margin: 1.0em 0 ;
-}
+    margin-top: 0em; 
+} 
 nav ul {
     margin: 0;
     padding: 0;
@@ -43,7 +43,7 @@ nav li a, nav li a:visited {
 nav li a:hover {
     color: black;
     background-color:black;
-}
+} 
 #face{
     position: relative;
     border-radius: 50%;
@@ -64,13 +64,16 @@ nav li a:hover {
     background-color: black;
 }
 button {
-    margin-left: 2px;
-    border-radius: 2px;
-    border: 1 none;
-    padding: .5em;
-    width: 8em;
-    color: seagreen;
-    font-weight: bold;
+  background-color: rgb(9, 196, 209);
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
 }
 #t1{
     font-family: cursive;
@@ -115,19 +118,20 @@ nav#utilityMenu li a, nav#utilityMenu li a:visited {
 nav#utilityMenu li a:hover { 
     background-color: transparent;
 }
-nav#utilityMenu ul li input#search {
+#search {
     vertical-align: middle;
-    margin: 0 0 0 1.0em;
+    margin-bottom: 2.2em;
+    margin-left: 160%;
 }
 nav#utilityMenu ul li.acctNav::before, nav#utilityMenu ul li input#search::before {
     content: "| ";
-    color: #FCFBE6;
+    color: rgb(189, 182, 63);
 }
  section #main {
     background-color: white;
     display: inline-block;
     border-radius: 2em;
-    box-shadow: 1px 1px 5px black;
+    box-shadow: 2px 1px 5px black;
 }
 #boomsday {
     background: url("fish/sea.jpg") center no-repeat;
@@ -137,7 +141,7 @@ nav#utilityMenu ul li.acctNav::before, nav#utilityMenu ul li input#search::befor
 section div.panel{
     float: left;
     position: relative;
-    width: 220px;
+    width: 23.1%;
     margin: 0 0.5em 2.0em 0.5em;
     padding: .5em;
     background-color: #fff;
@@ -158,7 +162,7 @@ border: black solid 1px;
     height: 140px;
     font-size: 1.2em;
     color: #fff;
-    width: 97%;
+    width: 100%;
     text-align: center;
     padding: 1.5em 2.0em;
 }
@@ -201,6 +205,7 @@ border: black solid 1px;
     margin-left: 5em; 
     padding: 0em; 
     border-left: 2em; 
+    margin-top:10em;
 }
 #art2{
     position: relative;

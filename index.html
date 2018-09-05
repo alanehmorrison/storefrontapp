@@ -3,34 +3,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>0
+    <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css"> 
+    <link rel="stylesheet" type="text/css" href="back.css">
 </head>
         <header> 
             <div class="contentwrapper">
-                <nav id="utilityMenu">
-                    <nav id="utilityMenu"> 
+                    <nav class="topnav" id="myTopnav"> 
                             <ul>   
                                 <li><a href = "https://www.facebook.com"><img id="face" src="fish/download.png" width="50"; height="50";></a></li>
                                 <li><a href = "https://www.instagram.com"><img id="insta" src="fish/insta.jpeg" width="50"; height="50";></a></li>
                                 <li><a href = "https://www.twitter.com"><img id="twit" src="fish/twitter.jpg" width="50"; height="50";></a></li>
                                 <li><a href = "https://www.snapchat.com"><img id="snap" src="fish/snap.png" width="50"; height="50"; ></a></li>
-                                <li class="acctNav"><a href="#" class="active">Order</a></li>
-                                <li class="acctNav"><a href="#">FishFood</a></li>
-                                <li class="acctNav"><a href="#">Locations</a></li>
-                                <li class="acctNav"><a href="#">Adoption</a></li>
+                                <li class="acctNav"><a href="#home" class="active">Order</a></li>
+                                <li class="acctNav"><a href="#news">News</a></li>
+                                <li class="acctNav"><a href="#contact">Contact</a></li>
+                                <li class="acctNav"><a href="#about">About</a></li>
                                 <li><input type="search" id="search" placeholder="Search" /></li>
+
+
+
                             </ul>
-                        </nav>
                     </nav>         
                <ul> 
-                    <ul>
-                        <li><a href="#">Shop Now</a></li>
-                        <li><a href="#">Fish Who Found a Home</a></li>
-                        <li><a href="#">Fish Family Tree</a></li>
-                        <li><a href="#">Food and More</a></li>
-                    </ul>
-                </div>
+               
                 </header>
             </header>
         </ul>
@@ -53,7 +49,16 @@
             <div class="ohe">
             </div>
             <div class="panel">
-            <id="t1"><h1>Rainbow Fish</h1></id><div><img src ="fish/rainbow.jpg" width="100"; height="100";></div><div>You can't find me anywhere else~ Where it all started, the Rainbow Fish. This one of a kind, beautiful fish will not disappoint.</div><div><input id= "Quantity" Placeholder="Quantity"></div><div><button>Order</button></div></td>
+            <id="t1"><h1>Rainbow Fish</h1></id><div><img src ="fish/rainbow.jpg" width="100"; height="100";></div><div>You can't find me anywhere else~ Where it all started, the Rainbow Fish. This one of a kind fish will not disappoint.</div><div><input id= "Quantity" Placeholder="Quantity"></div><div>
+                <button id="myBtn">Order</button>
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <p>Thank you for your order!</p>
+                    </div>
+                </div>
+            </div>
+                </td>
             </div>
             <div class="panel"> 
               <h1>Rainer Fish</h1> <div><img src="fish/yeller.jpg" width="100"; height="100";></div><div>Our new version of the ranier fish, featuring more yellow attrivutes. Named the Rainer fish after our family shop.</div><div><input id= "Quantity" Placeholder="Quantity"></div><div><button>Order</button></div>
@@ -65,16 +70,16 @@
                <h1>Finding Nemo </h1><div><img src="fish/nemo.jpg" width="100"; height="100";></div><div>You Found Nemo! One of our highest quality clown fish! Orange with white stripes. Most are not unique.</div><div><input id= "Quantity" Placeholder="Quantity"></div><div><button>Order</button></div>
             </div>
             <div class="panel"> 
-              <h1>BlowFish </h1><div><img src="fish/blow.jpg" width="100"; height="100";></div><div>We haven't popped one yet! No, seriously! Watch your aquarium blow up with a blowfish!</div><div><input id= "Quantity" Placeholder="Quantity "></div><div><button>Order</button></div>
+              <h1>BlowFish </h1><div><img src="fish/blow.jpg" width="100"; height="100";></div><div>We haven't popped one yet! Watch your aquarium blow up with a blowfish!</div><div><input id= "Quantity" Placeholder="Quantity "></div><div><button>Order</button></div>
             </div>
             <div class="panel"> 
               <h1>JellyFish </h1><div><img src="fish/jelly.jpg" width="100"; height="100";></div><div>This fish may not make jelly, but he is only available for limited time**.</div><div><input id= "Quantity" Placeholder="Quantity "></div><button>Order</button></td>
             </div>
             <div class="panel"> 
-                    <h1>Grumpy Fish </h1><div><img src="fish/angry.jpg" 100"; height="100";></div><div>This fish may not make jelly, but he is only available for limited time**.</div><div><input id= "Quantity" Placeholder="Quantity "></div><button>Order</button></td>
-                    </div>
+                    <h1>Grumpy Fish </h1><div><img src="fish/angry.jpg" width="100"; height="100";></div><div>This fish may not make jelly, but he is only available for limited time**.</div><div><input id= "Quantity" Placeholder="Quantity "></div><button>Order</button></td>
+            </div>
             <div class="panel"> 
-                    <h1>Swordfish </h1><div><img src="fish/sword.png" 100"; height="100";></div><div>This fish may not make jelly, but he is only available for limited time**.</div><div><input id= "Quantity" Placeholder="Quantity "></div><button>Order</button></td>
+                    <h1>Swordfish </h1><div><img src="fish/sword.png" width="100"; height="100";></div><div>This fish may not make jelly, but he is only available for limited time**.</div><div><input id= "Quantity" Placeholder="Quantity "></div><button>Order</button></td>
             </div>
             </div>
             <img id="aqua" src="fish/tomjerry.gif" width="400"; height="400";> 
